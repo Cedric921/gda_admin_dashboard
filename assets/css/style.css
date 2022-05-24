@@ -12,23 +12,30 @@ aside {
   box-sizing: border-box;
   background: cornflowerblue;
   color: white;
-  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.menu_icone{
+  display: flex;
+  align-items: center;
 }
 
 
 div ul {
-  text-align: left;
   list-style-type: none;
-  margin : 2em;
+  margin : 2em ;
+  margin-left: -0.6em;
 }
 
-li span{
-  padding : 0px 0px 0px 20px;
+img{
+  margin:0.5em;
 }
 
 #titre{
-  display:flex;
   height: 2em;
+  margin : 2em;
 }
 /* 
 main {
