@@ -37,7 +37,7 @@ body {
 
 div ul {
   list-style-type: none;
-  margin : 2em ;
+  margin : 1em ;
   margin-left: -0.6em;
 }
 
@@ -57,10 +57,6 @@ img{
 #titre img {
    margin: 5px;
 }
-/* 
-main {
-  width: 80%;
-} */
 
 header {
   box-sizing: border-box;
