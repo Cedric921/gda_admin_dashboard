@@ -1,0 +1,93 @@
+@media only screen and (max-width: 600px) {
+  body {
+    color: red;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .vertical_links {
+    box-sizing: border-box;
+    background: rgb(2, 108, 170);
+    color: white;
+    position: static;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+  }
+
+  aside {
+    display: flex;
+  }
+
+  main {
+    position: static;
+    width: 100%;
+  }
+
+  #titre {
+    margin: 5px;
+  }
+
+  div ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    padding: 0;
+  }
+
+  .features {
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .menu_icone img {
+    width: 20px;
+  }
+  .links ul li:hover,
+  .features ul li:hover {
+    padding-left: 0;
+  }
+
+  header nav{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+  }
+
+  .left{
+     width: 100%;
+     grid-template-columns: 1fr 6fr;
+  }
+
+  .right h3 {
+     width: 200px;
+  }
+
+  .hero{
+     display: grid;
+      grid-template-columns: 1fr;
+  }
+
+  section {
+   display: grid;
+   grid-template-columns: 1fr;
+   background: rgb(173, 202, 209);
+   box-shadow: 0px 1px 5px rgb(91, 131, 141) inset;
+   height: auto;
+}
+
+  .projects_items {
+   background: rgb(173, 202, 209);
+   width: 100%;
+   padding: 5px;
+   display: grid;
+   grid-template-columns: 1fr;
+   font-size: 14px;
+   line-height: 18px;
+}
+}
