@@ -1,3 +1,15 @@
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+    local('MaterialIcons-Regular'),
+    url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+    url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+    url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -31,7 +43,20 @@ header nav {
   width: 100%;
   margin: 5px 20px;
 }
+.left {
+   width: 400px;
+   display: grid;
+   grid-template-columns: 40px 1fr;
+   gap: 5px;
+}
 
+
+.search_bar {
+   border-radius: 10px;
+   padding: 5px;
+   border: none;
+   background: lightgrey;
+}
 .right {
   display: flex;
   justify-content: space-around;
