@@ -1,3 +1,15 @@
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+    local('MaterialIcons-Regular'),
+    url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+    url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+    url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -6,7 +18,7 @@ body {
   grid-template-columns: 1fr 4fr;
 }
 
-aside {
+.vertical_links {
   /* width: 20%; */
   height: 100vh;
   box-sizing: border-box;
@@ -37,6 +49,10 @@ img{
   height: 2em;
   margin : 2em;
 }
+
+#titre img {
+   margin: 5px;
+}
 /* 
 main {
   width: 80%;
@@ -46,7 +62,8 @@ header {
   box-sizing: border-box;
   background: aliceblue;
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 header nav {
@@ -56,7 +73,20 @@ header nav {
   width: 100%;
   margin: 5px 20px;
 }
+.left {
+   width: 400px;
+   display: grid;
+   grid-template-columns: 40px 1fr;
+   gap: 5px;
+}
 
+
+.search_bar {
+   border-radius: 10px;
+   padding: 5px;
+   border: none;
+   background: lightgrey;
+}
 .right {
   display: flex;
   justify-content: space-around;
@@ -71,4 +101,39 @@ header nav {
   width: 40px;
   height: 40px;
   border-radius: 50px;
+}
+
+.hero {
+   width: 100%;
+   display: grid;
+   grid-template-columns: 1fr 300px;
+   padding: 20px 20px 5px 20px;
+}
+.profile {
+   display: grid;
+   grid-template-columns: 100px 1fr;
+}
+.actions {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 20px;
+}
+
+.actions button{
+   margin: 50px 2px 2px 2px; 
+   height: 30px;
+   width: 100%;
+   background: rgb(0, 132, 255);
+   border-radius: 50px;
+   border: none;
+   color: aliceblue;
+   padding: 5px 20px;
+   text-align: center;
+}
+
+.profile img {
+   margin: auto;
+   width: 80px;
+   height: 80px;
+   border-radius: 100px;
 }
