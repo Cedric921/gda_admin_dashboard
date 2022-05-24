@@ -1,0 +1,15 @@
+header {
+    height: 100px;
+    width: 100%;
+    background: aliceblue;
+    display: flex;
+    justify-content: space-between;
+}
+header {
+    background-color: blue;
+    justify-content: justify-content;
+}
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
