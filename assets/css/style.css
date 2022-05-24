@@ -11,6 +11,11 @@ aside {
   height: 100vh;
   box-sizing: border-box;
   background: cornflowerblue;
+  color: white;
+}
+
+div ul {
+  list-style-type: none;
 }
 /* 
 main {
