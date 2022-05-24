@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+aside {
+  /* width: 20%; */
+  height: 100vh;
+  box-sizing: border-box;
+  background: cornflowerblue;
+  color: white;
+}
+
+div ul {
+  list-style-type: none;
+}
+/* 
+main {
+  width: 80%;
+} */
+
+header {
+  box-sizing: border-box;
+  background: aliceblue;
+  display: flex;
+  justify-content: center;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 5px 20px;
+}
+
+.right {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.profile_picture {
+  margin: auto 10px;
+}
+
+.profile_picture img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+}
