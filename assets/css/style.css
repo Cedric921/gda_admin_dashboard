@@ -31,13 +31,11 @@ aside {
 div ul {
   text-align: left;
   list-style-type: none;
-  margin : 2.5em;
-  margin-left: 0px;
+  margin : 2em;
 }
 
 li span{
-  padding : 1em;
-  padding-bottom: 2em;
+  padding : 0px 0px 0px 20px;
 }
 
 #titre{
