@@ -24,23 +24,25 @@ body {
   box-sizing: border-box;
   background: rgb(2, 108, 170);
   color: white;
-  padding: 1em 1em 1em 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.menu_icone{
+  display: flex;
+  align-items: center;
 }
 
 
 div ul {
-  text-align: left;
   list-style-type: none;
-  padding: 0px;
-  margin : 20px 0 0 0;
+  margin : 1em ;
+  margin-left: -0.6em;
 }
-div ul li {
-   margin: 10px 5px 5px 0;
-   display: flex;
-   align-items: center;
-}
-li span{
-  padding-left : 20px;
+
+img{
+  margin:0.5em;
 }
 
 .features {
@@ -48,18 +50,13 @@ li span{
 }
 
 #titre{
-  display:flex;
-  align-items: center;
   height: 2em;
+  margin : 2.5em;
 }
 
 #titre img {
    margin: 5px;
 }
-/* 
-main {
-  width: 80%;
-} */
 
 header {
   box-sizing: border-box;
