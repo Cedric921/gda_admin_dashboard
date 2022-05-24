@@ -22,7 +22,7 @@ body {
   /* width: 20%; */
   height: 100vh;
   box-sizing: border-box;
-  background: cornflowerblue;
+  background: rgb(2, 108, 170);
   color: white;
   padding: 1em 1em 1em 1em;
 }
@@ -35,12 +35,16 @@ div ul {
   margin : 20px 0 0 0;
 }
 div ul li {
-   margin: 5px 5px 5px 0;
+   margin: 10px 5px 5px 0;
    display: flex;
    align-items: center;
 }
 li span{
   padding-left : 20px;
+}
+
+.features {
+   margin-top: 50px;
 }
 
 #titre{
