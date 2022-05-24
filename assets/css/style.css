@@ -22,7 +22,7 @@ body {
   /* width: 20%; */
   height: 100vh;
   box-sizing: border-box;
-  background: cornflowerblue;
+  background: rgb(2, 108, 170);
   color: white;
   display: flex;
   flex-direction: column;
@@ -43,6 +43,10 @@ div ul {
 
 img{
   margin:0.5em;
+}
+
+.features {
+   margin-top: 50px;
 }
 
 #titre{
