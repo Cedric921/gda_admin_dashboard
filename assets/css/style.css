@@ -18,29 +18,39 @@ body {
   grid-template-columns: 1fr 4fr;
 }
 
-aside {
+.vertical_links {
   /* width: 20%; */
   height: 100vh;
   box-sizing: border-box;
   background: cornflowerblue;
   color: white;
-  padding: 1em;
+  padding: 1em 1em 1em 1em;
 }
 
 
 div ul {
   text-align: left;
   list-style-type: none;
-  margin : 2em;
+  padding: 0px;
+  margin : 20px 0 0 0;
 }
-
+div ul li {
+   margin: 5px 5px 5px 0;
+   display: flex;
+   align-items: center;
+}
 li span{
-  padding : 0px 0px 0px 20px;
+  padding-left : 20px;
 }
 
 #titre{
   display:flex;
+  align-items: center;
   height: 2em;
+}
+
+#titre img {
+   margin: 5px;
 }
 /* 
 main {
