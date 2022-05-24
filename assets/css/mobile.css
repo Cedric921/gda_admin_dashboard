@@ -89,5 +89,6 @@
    grid-template-columns: 1fr;
    font-size: 14px;
    line-height: 18px;
+   box-sizing: border-box;
 }
 }
