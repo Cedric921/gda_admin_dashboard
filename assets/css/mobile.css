@@ -69,6 +69,8 @@
   }
 
   .hero{
+     margin-top: 5px;
+     padding-top: 0;
      display: grid;
       grid-template-columns: 1fr;
   }
@@ -81,10 +83,15 @@
    height: auto;
 }
 
+.profile{
+   display: none;
+}
+
   .projects_items {
    background: rgb(173, 202, 209);
-   width: 100%;
+   width: 90%;
    padding: 5px;
+   margin: auto;
    display: grid;
    grid-template-columns: 1fr;
    font-size: 14px;
