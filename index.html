@@ -6,73 +6,150 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.5.95/css/materialdesignicons.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@mdi/font@6.5.95/css/materialdesignicons.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <aside class="vertical_links">
-       <!-- Rolly -->
-       <div id="titre" class="menu_icone">
-         <img src="assets/images/view-dashboard.png" alt="logo">
-         <h2>Dashboard</h2>
-       </div>
+      <!-- Rolly -->
+      <div id="titre" class="menu_icone">
+        <img src="assets/images/view-dashboard.png" alt="logo" />
+        <h2>Dashboard</h2>
+      </div>
 
-       <div>
-         <ul>
-           <li class="menu_icone"><img src="assets/images/home.png" alt="home"><span>Home</span></li>
-           <li class="menu_icone"><img src="assets/images/card-account-details.png" alt="profile"><span>Profile</span></li>
-           <li class="menu_icone"><img src="assets/images/message-reply.png" alt="message"><span>Message</span></li>
-           <li class="menu_icone"><img src="assets/images/clock.png" alt="Horloge"><span>History</span></li>
-           <li class="menu_icone"><img src="assets/images/file-multiple.png" alt="file multiple"><span>Tasks</span></li>
-           <li class="menu_icone"><img src="assets/images/account-group.png" alt="groupe"><span>Communities</span></li>
-         </ul>
-        </div>
-        <div class="features">
-          <ul>
-            <li class="menu_icone"><img src="assets/images/cog-outline.png"  alt="Tools"><span>Settings</span></li>
-            <li class="menu_icone"><img src="assets/images/help-box.png" alt="help"><span>Support</span></li>
-            <li class="menu_icone"><img src="assets/images/shield-check.png" alt="check"><span>Privacy</span></li>
-          </ul>
-        </div>
+      <div>
+        <ul>
+          <li class="menu_icone">
+            <img src="assets/images/home.png" alt="home" /><span>Home</span>
+          </li>
+          <li class="menu_icone">
+            <img
+              src="assets/images/card-account-details.png"
+              alt="profile"
+            /><span>Profile</span>
+          </li>
+          <li class="menu_icone">
+            <img src="assets/images/message-reply.png" alt="message" /><span
+              >Message</span
+            >
+          </li>
+          <li class="menu_icone">
+            <img src="assets/images/clock.png" alt="Horloge" /><span
+              >History</span
+            >
+          </li>
+          <li class="menu_icone">
+            <img
+              src="assets/images/file-multiple.png"
+              alt="file multiple"
+            /><span>Tasks</span>
+          </li>
+          <li class="menu_icone">
+            <img src="assets/images/account-group.png" alt="groupe" /><span
+              >Communities</span
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="features">
+        <ul>
+          <li class="menu_icone">
+            <img src="assets/images/cog-outline.png" alt="Tools" /><span
+              >Settings</span
+            >
+          </li>
+          <li class="menu_icone">
+            <img src="assets/images/help-box.png" alt="help" /><span
+              >Support</span
+            >
+          </li>
+          <li class="menu_icone">
+            <img src="assets/images/shield-check.png" alt="check" /><span
+              >Privacy</span
+            >
+          </li>
+        </ul>
+      </div>
     </aside>
     <main>
       <header>
-         <nav>
-            <div class="left">
-               <img src="assets/images/magnify.svg" alt="">
-               <input type="text" class="search_bar">
+        <nav>
+          <div class="left">
+            <img src="assets/images/magnify.svg" alt="" />
+            <input type="text" class="search_bar" />
+          </div>
+          <div></div>
+          <div class="right">
+            <img src="assets/images/bell-ring-outline.svg" alt="" />
+            <div class="profile_picture">
+              <img src="assets/images/profile.png" alt="" />
             </div>
-            <div></div>
-            <div class="right">
-               <img src="assets/images/bell-ring-outline.svg" alt="">
-               <div class="profile_picture">
-                  <img src="assets/images/profile.png" alt="">
-               </div>
-               <h3>Cedric karungu</h3>
+            <h3>Cedric karungu</h3>
+          </div>
+        </nav>
+        <div class="hero">
+          <div class="profile">
+            <img src="assets/images/profile.png" alt="" />
+            <div class="name">
+              <h5>Hi there</h5>
+              <h3>Cedric karungu(@Rolly)</h3>
             </div>
-         </nav>
-         <div class="hero">
-            <div class="profile">
-               <img src="assets/images/profile.png" alt="">
-               <div class="name">
-                  <h5>Hi there</h5>
-                  <h3>Cedric karungu(@Rolly)</h3>
-               </div>
-            </div>
-            <div class="actions">
-               <button>new</button>
-               <button>Upload</button>
-               <button>Share</button>
-            </div>
-         </div>
+          </div>
+          <div class="actions">
+            <button>new</button>
+            <button>Upload</button>
+            <button>Share</button>
+          </div>
+        </div>
       </header>
       <section>
-         <div class="projects"></div>
-         <aside>
-            <div class="anouncement"></div>
-            <div class="treding"></div>
-         </aside>
+        <div class="projects">
+          <h3>Your projects</h3>
+          <div class="projects_items">
+            <!-- single item -->
+            <div class="single_project">
+              <h4>Super cool project</h4>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut sit
+                illo libero, accusamus nemo nam vitae ad sunt dolores hic
+                provident iusto consequuntur placeat maiores illum esse qui
+                molestias veritatis?
+              </p>
+              <div class="project_actions">
+                 <img src="assets/images/star-plus-outline.svg" alt="">
+                 <img src="assets/images/eye-plus-outline.svg" alt="">
+                 <img src="assets/images/source-fork.svg" alt="">
+              </div>
+            </div>
+
+            <!-- single item -->
+            <div class="single_project">
+              <h4>Super cool project</h4>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut sit
+                illo libero, accusamus nemo nam vitae ad sunt dolores hic
+                provident iusto consequuntur placeat maiores illum esse qui
+                molestias veritatis?
+              </p>
+              <div class="project_actions">
+                 <img src="assets/images/star-plus-outline.svg" alt="">
+                 <img src="assets/images/eye-plus-outline.svg" alt="">
+                 <img src="assets/images/source-fork.svg" alt="">
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <aside>
+          <div class="anouncement"></div>
+          <div class="treding"></div>
+        </aside>
       </section>
     </main>
   </body>
