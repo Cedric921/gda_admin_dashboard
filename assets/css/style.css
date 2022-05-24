@@ -38,7 +38,8 @@ header {
   box-sizing: border-box;
   background: aliceblue;
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 header nav {
@@ -76,4 +77,39 @@ header nav {
   width: 40px;
   height: 40px;
   border-radius: 50px;
+}
+
+.hero {
+   width: 100%;
+   display: grid;
+   grid-template-columns: 1fr 300px;
+   padding: 20px 20px 5px 20px;
+}
+.profile {
+   display: grid;
+   grid-template-columns: 100px 1fr;
+}
+.actions {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 20px;
+}
+
+.actions button{
+   margin: 50px 2px 2px 2px; 
+   height: 30px;
+   width: 100%;
+   background: rgb(0, 132, 255);
+   border-radius: 50px;
+   border: none;
+   color: aliceblue;
+   padding: 5px 20px;
+   text-align: center;
+}
+
+.profile img {
+   margin: auto;
+   width: 80px;
+   height: 80px;
+   border-radius: 100px;
 }
