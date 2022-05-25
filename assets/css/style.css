@@ -58,6 +58,10 @@ img{
    margin: 5px;
 }
 
+.anouncement {
+  width: 30%;
+}
+
 header {
   box-sizing: border-box;
   background: aliceblue;
