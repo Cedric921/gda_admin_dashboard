@@ -1,6 +1,6 @@
 @media only screen and (max-width: 600px) {
   body {
-    color: red;
+    color: black;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -66,6 +66,7 @@
      width: 100%;
      box-sizing: border-box;
      margin-left: 0;
+     margin-top: 10px;
      grid-template-columns: 30px 1fr;
   }
 
@@ -82,23 +83,25 @@
   }
 
   .hero{
-     margin-top: 5px;
-     padding-top: 0;
-     display: grid;
-      grid-template-columns: 1fr;
+    margin-top: 5px;
+    padding-top: 0;
+    padding: 0;
+    display: flex;
+    grid-template-columns: 1fr;
+    box-sizing: border-box;
   }
 
   section {
-   display: grid;
-   grid-template-columns: 1fr;
-   background: rgb(173, 202, 209);
-   box-shadow: 0px 1px 5px rgb(91, 131, 141) inset;
-   height: auto;
-}
+    display: grid;
+    grid-template-columns: 1fr;
+    background: rgb(173, 202, 209);
+    box-shadow: 0px 1px 5px rgb(91, 131, 141) inset;
+    height: auto;
+  } 
 
-.profile{
-   display: none;
-}
+  .profile{
+    display: none;
+  }
 
   .projects_items {
     background: rgb(173, 202, 209);
@@ -111,7 +114,27 @@
     line-height: 18px;
     box-sizing: border-box;
   }
+
+  .actions {
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+  }
+
   .actions button {
     margin-top: 5px;
   }
+
+  .profile_picture {
+    margin: 0;
+  }
+
+  .right h3 {
+    width: auto;
+    margin: 5px;
+  }
+
+
 }
