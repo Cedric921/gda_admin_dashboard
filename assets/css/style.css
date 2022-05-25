@@ -1,5 +1,5 @@
 * {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* body {
@@ -65,9 +65,6 @@ img{
    margin: 5px;
 }
 
-.anouncement {
-  width: 15vw;
-}
 
 header {
   box-sizing: border-box;
@@ -167,14 +164,71 @@ header nav {
 section {
    display: grid;
    grid-template-columns: 1fr 300px;
-   background: rgb(173, 202, 209);
+   background: rgb(223, 223, 223);
    box-shadow: 0px 1px 5px rgb(91, 131, 141) inset;
    height: auto;
+   box-sizing: border-box;
+   gap: 10px;
 }
 section h3{
    padding-left: 20px;
 }
 
+/* anouncement */
+
+
+.anouncement,
+.treding {
+  width: 100%;
+  margin-top: 20px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.anouncement > h3,
+.treding > h3 {
+   margin: 10px auto 10px 0px;
+   color: rgb(2, 108, 170);;
+}
+
+.anouncement > article,
+.treding > article {
+   width: 100%;
+   padding: 10px;
+   margin-top: 5px;
+   box-sizing: border-box;
+   background: aliceblue;
+   border-radius: 10px;
+   font-size: 10px;
+}
+
+.treding article{
+   display: grid;
+   grid-template-columns: 1fr;
+}
+
+.person {
+   display: grid;
+   grid-template-columns: 1fr 2fr;
+} 
+
+.person img {
+   height: 50px;
+   width: 50px;
+   border-radius: 50px;
+}
+
+.part {
+   margin-bottom: 20px;
+}
+
+
+
+.divider {
+   width: 80%;
+
+   margin: auto;
+   border: 1px solid gray;
+}
 
 /* projects and project items styles */
 .projects h3 {
@@ -182,10 +236,11 @@ section h3{
    color: rgb(2, 108, 170);
 }
 .projects_items {
-   background: rgb(173, 202, 209);
+   background: rgb(223, 223, 223);
    width: 100%;
-   padding: 20px;
+   padding: 10px;
    display: grid;
+   box-sizing: border-box;
    grid-template-columns: 1fr 1fr;
    gap: 20px;
    font-size: 14px;
@@ -217,6 +272,7 @@ section h3{
    display: grid;
    grid-template-columns: 1fr 30px 30px 30px;
    justify-items: end;
+   box-sizing: border-box;
    gap: 5px;
    height: 35px;
    max-height: 35px;
