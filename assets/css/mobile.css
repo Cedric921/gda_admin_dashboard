@@ -57,11 +57,24 @@
      display: flex;
      flex-direction: column;
      align-items: center;
+     width: 100%;
+     margin: 5px;
+     box-sizing: border-box;
   }
 
   .left{
      width: 100%;
-     grid-template-columns: 1fr 6fr;
+     box-sizing: border-box;
+     margin-left: 0;
+     grid-template-columns: 30px 1fr;
+  }
+
+  .left img {
+    margin: 5px;
+  }
+
+  .search_bar {
+    margin-right:  5px;
   }
 
   .right h3 {
@@ -88,14 +101,17 @@
 }
 
   .projects_items {
-   background: rgb(173, 202, 209);
-   width: 90%;
-   padding: 5px;
-   margin: auto;
-   display: grid;
-   grid-template-columns: 1fr;
-   font-size: 14px;
-   line-height: 18px;
-   box-sizing: border-box;
-}
+    background: rgb(173, 202, 209);
+    width: 90%;
+    padding: 5px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 14px;
+    line-height: 18px;
+    box-sizing: border-box;
+  }
+  .actions button {
+    margin-top: 5px;
+  }
 }
