@@ -20,6 +20,7 @@
 
   aside {
     display: flex;
+    flex-wrap: wrap;
   }
 
   main {
@@ -136,5 +137,27 @@
     margin: 5px;
   }
 
+  .anouncement ,
+  .treding  {
+    margin: 10px 20px;
+    padding: 20px;
+  }
+
+  .anouncement > article,
+  .treding > article {
+    /* width: 100%; */
+    padding: 20px;
+    box-sizing: border-box;
+    background: white;
+    border-radius: 10px;
+    font-size: 14px;
+  }
+
+
+}
+
+
+
+@media only screen and (min-width: 600px ) {
 
 }
