@@ -1,0 +1,140 @@
+@media only screen and (max-width: 600px) {
+  body {
+    color: black;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .vertical_links {
+    box-sizing: border-box;
+    background: rgb(2, 108, 170);
+    color: white;
+    position: static;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+  }
+
+  aside {
+    display: flex;
+  }
+
+  main {
+    position: static;
+    width: 100%;
+  }
+
+  #titre {
+    margin: 5px;
+  }
+
+  div ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    padding: 0;
+  }
+
+  .features {
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .menu_icone img {
+    width: 20px;
+  }
+  .links ul li:hover,
+  .features ul li:hover {
+    padding-left: 0;
+  }
+
+  header nav{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: 100%;
+     margin: 5px;
+     box-sizing: border-box;
+  }
+
+  .left{
+     width: 100%;
+     box-sizing: border-box;
+     margin-left: 0;
+     margin-top: 10px;
+     grid-template-columns: 30px 1fr;
+  }
+
+  .left img {
+    margin: 5px;
+  }
+
+  .search_bar {
+    margin-right:  5px;
+  }
+
+  .right h3 {
+     width: 200px;
+  }
+
+  .hero{
+    margin-top: 5px;
+    padding-top: 0;
+    padding: 0;
+    display: flex;
+    grid-template-columns: 1fr;
+    box-sizing: border-box;
+  }
+
+  section {
+    display: grid;
+    grid-template-columns: 1fr;
+    background: rgb(173, 202, 209);
+    box-shadow: 0px 1px 5px rgb(91, 131, 141) inset;
+    height: auto;
+  } 
+
+  .profile{
+    display: none;
+  }
+
+  .projects_items {
+    background: rgb(173, 202, 209);
+    width: 90%;
+    padding: 5px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 14px;
+    line-height: 18px;
+    box-sizing: border-box;
+  }
+
+  .actions {
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  .actions button {
+    margin-top: 5px;
+  }
+
+  .profile_picture {
+    margin: 0;
+  }
+
+  .right h3 {
+    width: auto;
+    margin: 5px;
+  }
+
+
+}
